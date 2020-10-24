@@ -9,9 +9,9 @@ class structure {
 public:
     operator std::string() const;
     void set(std::string &&name, element &&value);
+    element get(std::string &&name) const;
 
 private:
-
     std::map<std::string, element> elements;
 };
 

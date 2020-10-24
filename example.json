@@ -1,0 +1,34 @@
+{
+  "a": "a",
+  "b": "3",
+  "c": "97",
+  "inner_structure": {
+    "my_set": "5",
+    "my_set2": "5.320000"
+  },
+  "inner_structure_2": {
+    "a": "a",
+    "b": "3",
+    "c": "97",
+    "inner_structure": {
+      "my_set": "5",
+      "my_set2": "5.320000"
+    }
+  },
+  "my_array": [
+    "33",
+    "Hello",
+    "World",
+    "Array",
+    [
+      "33",
+      "Hello",
+      "World",
+      "Array"
+    ],
+    {
+      "my_set": "5",
+      "my_set2": "5.320000"
+    }
+  ]
+}

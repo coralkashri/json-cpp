@@ -19,5 +19,10 @@ structure::operator std::string() const {
 }
 
 void structure::set(std::string &&name, element &&value) {
-    elements.insert({name, value});
+    if (elements.find(name) != elements.end()) elements.at(name) = value;
+    else elements.insert({name, value});
+}
+
+element structure::get(std::string &&name) const {
+    return elements.at(name);
 }
